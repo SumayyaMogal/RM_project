@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # BEHAVIOR Challenge Solution
 
 
@@ -222,3 +223,6 @@ We didn't properly evaluate it on the full dataset but our guess is that it can 
 - Paper: [π0.5](https://www.physicalintelligence.company/download/pi05.pdf)
 
 
+=======
+# RM_project
+>>>>>>> 18f3ea5e7e2c46cb8dedaa74aa62daa0ea92ff61
