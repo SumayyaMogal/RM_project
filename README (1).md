@@ -1,12 +1,5 @@
 # BEHAVIOR Challenge Solution
 
-**1st Place | Public Leaderboard: 26% | Private Leaderboard: 26%**
-
-This repository contains our winning solution for the [2025 BEHAVIOR Challenge](https://behavior.stanford.edu/challenge/), achieving a 26% success rate on both the public and private evaluation sets. Our approach builds upon [Physical Intelligence's Pi0.5](https://www.physicalintelligence.company/blog/pi0) vision-language-action model with several architectural and training innovations.
-
-**📄 [Technical Report](https://arxiv.org/abs/2512.06951)** | **👀 [Blog Post](https://robot-learning-collective.github.io/winning-behavior-1k-challenge)** | **🎥 [Video](https://www.youtube.com/watch?v=J4wpO0EdCZs)**
-
----
 
 ## 🏆 Solution Summary
 We use policy based on Pi0.5 and built on top of [openpi](https://github.com/Physical-Intelligence/openpi) repository.
@@ -209,29 +202,15 @@ We didn't properly evaluate it on the full dataset but our guess is that it can 
 
 ## 👥 Core Team
 
-- **[Ilia Larchenko](https://github.com/IliaLarchenko)**
-- **[Zarin Gleb](https://github.com/zaringleb)**
-- **[Akash Karnatak](https://github.com/akashkarnatak)**
-
-## 🙏 Acknowledgments
-
-We would like to thank:
-
-- **[Vladimir Ershov](https://github.com/Vladimir-Ershov)**
-- **[Justyna Ilczuk](https://github.com/ilonajulczuk)**
-- **[Andrey Mulenkov](https://github.com/MulixBF)**
-
-
-Special thanks to **[Nebius](https://nebius.com/)** for providing cloud GPU compute resources and sponsoring the development of our solution.
-
-
-Special thanks to **[Physical Intelligence](https://www.physicalintelligence.company/)** for providing open source work on Pi0.5 and openpi which was a great inspiration and fundament of our solution.
+- **[Sumayya M]**
+- **[Haindavi]**
+- **[Dedipya]**
 
 
 ## 📚 References
 
 **BEHAVIOR-1K Challenge**
-- Website: [BEHAVIOR Challenge 2025](https://behavior.stanford.edu/challenge/)
+- Website: [BEHAVIOR Challenge 2026](https://behavior.stanford.edu/challenge/)
 - Paper: Li et al., "BEHAVIOR-1K: A Human-Centered, Embodied AI Benchmark with 1,000 Everyday Activities and Realistic Simulation" (2024) [[arXiv:2403.09227]](https://arxiv.org/abs/2403.09227)
 - Dataset: [HuggingFace Dataset](https://huggingface.co/datasets/behavior-1k/2025-challenge-demos)
 - Code: [BEHAVIOR-1K Repository](https://github.com/StanfordVL/BEHAVIOR-1K)
@@ -242,18 +221,3 @@ Special thanks to **[Physical Intelligence](https://www.physicalintelligence.com
 - Paper: [π0.5](https://www.physicalintelligence.company/download/pi05.pdf)
 
 
-## Citation
-
-If you find this work useful, please cite:
-
-```bibtex
-@misc{larchenko2025behavior,
-      title={Task adaptation of Vision-Language-Action model: 1st Place Solution for the 2025 BEHAVIOR Challenge}, 
-      author={Ilia Larchenko and Gleb Zarin and Akash Karnatak},
-      year={2025},
-      eprint={2512.06951},
-      archivePrefix={arXiv},
-      primaryClass={cs.RO},
-      url={https://arxiv.org/abs/2512.06951}, 
-}
-```
